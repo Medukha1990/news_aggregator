@@ -1,14 +1,20 @@
 # Getting Started with News Aggregator App
 
-This is a simple React application for news aggregation. The application is
-created using Create React App and can be easily launched in a Docker container.
+This is a simple React application for news aggregation. The application is created using Create React App with TypeScript, 
+and it utilizes the Material-UI library for components. 
+Styles are configured with Tailwind CSS. The entire project can be easily launched in a Docker container.
 
 ## Available Scripts
 
 To run the project:
 
-1. ### `docker build -t news-aggregator:latest .`
-2. ### `docker run -p 8080:3000 -d news-aggregator:latest`
+1. **Build Docker image:**
+   ```bash
+   docker build -t news-aggregator:latest .
+   
+2. **Run:**
+      ```bash
+   docker run -p 8080:3000 -d news-aggregator:latest
 
 Application check:
 
