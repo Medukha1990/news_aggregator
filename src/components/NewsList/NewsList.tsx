@@ -111,7 +111,7 @@ const NewsList = ({ news }: Props): JSX.Element => {
 			)}
 			{filtersApplied && filteredNews.length === 0 ? (
 				<SharedAlert
-					title='Результаты не найдены'
+					title='No results'
 					description=''
 					severity='info'
 				/>
