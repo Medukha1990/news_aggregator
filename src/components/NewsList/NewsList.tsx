@@ -98,7 +98,7 @@ const NewsList = ({ news }: Props): JSX.Element => {
 						className='cursor-pointer'
 						onClick={() => setIsFilter(!isFilter)}
 					>
-						Фильтр
+						Filter
 					</Button>
 				</Box>
 			) : (
